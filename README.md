@@ -1,10 +1,7 @@
-# Skyrim Small Groups 
+# Small Group Allocation Algorithm 
 A work by: Mathew Lister and Tad Okazaki
 
 Install Tutorial: https://youtu.be/4P2uYK9tS8I
-
-## Introduction
-The people of Skyrim wish to spread COVID-19 as fast as possible. The devise a plan to have miniature house parties so that everyone visits everyone else’s house as fast as possible based on a constant party size. Skyrim takes marriage very seriously (you receive 100 gold and a cooked meal everyday) so, married couples must go to the same party every time and count as two towards the party size.
 
 ## Description 
 This program reads in a list of names ***(n)*** with the desired group size/size of the party ***(g)***. One person in that group will be designated as the party host and everyone else will be visitors. This program will initialize graphs to represent every possible group such that everyone in the list visits everyone else’s house for a party. There will also be a corresponding hash table that will grow as the program runs. We wrote out program using Java and used the Graphstream API. 
@@ -57,7 +54,7 @@ Multiple attemps have been made and we did extensive research into the errors we
 Install Tutorial: https://youtu.be/4P2uYK9tS8I
 
 Install Steps:
-1. Clone repo: https://github.com/csc3430-winter2020/community-small-groups-dagobah.git
+1. Clone repo: https://github.com/MathewLister/Group-Allocation-Algorithm
 2. Open the GRAPHS folder in Intellij (X:\*Cloned location\community-small-groups-dagobah\GRAPHS)
 	1. May need to add project configuration (next to build icon click "ADD CONFIGURATION"
 	2. Click '+'
